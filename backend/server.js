@@ -11,7 +11,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000/","https://mern-task-manager-4ux1.onrender.com/"],
+    origin: ["http://localhost:3000","https://mern-task-manager-4ux1.onrender.com"],
   })
 );
 
